@@ -1,0 +1,15 @@
+C:\Users\vitor\Desktop\Data_Structure_with_C_Sharp\bin\Debug\net7.0\Data_Structure_with_C_Sharp.exe
+C:\Users\vitor\Desktop\Data_Structure_with_C_Sharp\bin\Debug\net7.0\Data_Structure_with_C_Sharp.deps.json
+C:\Users\vitor\Desktop\Data_Structure_with_C_Sharp\bin\Debug\net7.0\Data_Structure_with_C_Sharp.runtimeconfig.json
+C:\Users\vitor\Desktop\Data_Structure_with_C_Sharp\bin\Debug\net7.0\Data_Structure_with_C_Sharp.dll
+C:\Users\vitor\Desktop\Data_Structure_with_C_Sharp\bin\Debug\net7.0\Data_Structure_with_C_Sharp.pdb
+C:\Users\vitor\Desktop\Data_Structure_with_C_Sharp\obj\Debug\net7.0\Data_Structure_with_C_Sharp.csproj.AssemblyReference.cache
+C:\Users\vitor\Desktop\Data_Structure_with_C_Sharp\obj\Debug\net7.0\Data_Structure_with_C_Sharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vitor\Desktop\Data_Structure_with_C_Sharp\obj\Debug\net7.0\Data_Structure_with_C_Sharp.AssemblyInfoInputs.cache
+C:\Users\vitor\Desktop\Data_Structure_with_C_Sharp\obj\Debug\net7.0\Data_Structure_with_C_Sharp.AssemblyInfo.cs
+C:\Users\vitor\Desktop\Data_Structure_with_C_Sharp\obj\Debug\net7.0\Data_Structure_with_C_Sharp.csproj.CoreCompileInputs.cache
+C:\Users\vitor\Desktop\Data_Structure_with_C_Sharp\obj\Debug\net7.0\Data_Structure_with_C_Sharp.dll
+C:\Users\vitor\Desktop\Data_Structure_with_C_Sharp\obj\Debug\net7.0\refint\Data_Structure_with_C_Sharp.dll
+C:\Users\vitor\Desktop\Data_Structure_with_C_Sharp\obj\Debug\net7.0\Data_Structure_with_C_Sharp.pdb
+C:\Users\vitor\Desktop\Data_Structure_with_C_Sharp\obj\Debug\net7.0\Data_Structure_with_C_Sharp.genruntimeconfig.cache
+C:\Users\vitor\Desktop\Data_Structure_with_C_Sharp\obj\Debug\net7.0\ref\Data_Structure_with_C_Sharp.dll
