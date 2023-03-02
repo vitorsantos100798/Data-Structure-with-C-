@@ -1,50 +1,46 @@
 ﻿
+void crescente(int nI, int nF)
+{
+  if (nI <= nF)
+  {
+    Console.WriteLine(nI);
+    crescente(nI + 1, nF);
+  }
+}
+
+
 string op = "0";
 while (op != "3")
 {
-  Console.WriteLine("Menu");
-  Console.WriteLine("1- Funções sem vetor");
-  Console.WriteLine("2- Função com Vetor");
-  Console.WriteLine("3- Sair");
+  Console.WriteLine("Menu Principal");
+  Console.WriteLine("1- Função sem vetor");
+  Console.WriteLine("2- Função com vetor ");
+  Console.WriteLine("3 - Sair");
+  Console.Write("Opção desejada ");
   op = Console.ReadLine();
 
   if (op == "1")
   {
-    int numI;
-    int numF;
-    Console.WriteLine("Numero Inicial");
-    numI = Console.ReadLine("");
-    Console.WriteLine("Numero Final");
-    numF = Console.ReadLine("");
-    Console.WriteLine("Menu 2");
-    Console.WriteLine("1-Crescente");
-    Console.WriteLine("2-Descrecente");
-    Console.WriteLine("3-Impares");
-    Console.WriteLine("4- Somatorio");
-    Console.WriteLine("5-Voltar");
+    int numI, numF;
+    Console.Write("Numero inicial: ");
+    numI = Convert.ToInt32(Console.ReadLine());
+    Console.Write("Numero final");
+    numF = Convert.ToInt32(Console.ReadLine());
+    Console.WriteLine("Menu Secundário");
+    Console.WriteLine("1- Inteiros crescente");
+    Console.WriteLine("2- Inteiros decrescente");
+    Console.WriteLine("3- Inteiros Impares");
+    Console.WriteLine("4- Somatorios");
+    Console.WriteLine("5- Voltar");
+    Console.Write("Opção desejada ");
     string op2 = Console.ReadLine();
 
     if (op2 == "1")
     {
       crescente(numI, numF);
     }
-    else if (op === "2")
-    {
-      decrescente(numI, numF);
-    }
   }
 }
 
-void crescente(int numI, int numF)
-{
-  crescente(numI += 1, numF);
-}
 
-void decrescente(int numI, int numF)
-{
-  while (numI >= numF)
-  {
-    Console.WriteLine(numF);
-    numF = 1;
-  }
-}
+
