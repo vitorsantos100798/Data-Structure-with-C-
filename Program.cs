@@ -7,6 +7,41 @@ void crescente(int nI, int nF)
     crescente(nI + 1, nF);
   }
 }
+void decrescente(int nI, int nF)
+{
+  if (nF >= nI)
+  {
+    Console.WriteLine(nF);
+    decrescente(nI, nF - 1);
+
+  }
+
+}
+
+void impares(int nI, int nF)
+{
+  if (nI <= nF)
+  {
+    if (nI % 2 != 0)
+    {
+      Console.WriteLine(nI);
+      impares(nI + 1, nF);
+    }
+  }
+}
+
+int somatorio(int nI, int nF)
+{
+  if (nI < nF)
+  {
+    return somatorio(nI + 1, nF) + nI;
+  }
+  else
+  {
+    return nI;
+  }
+}
+
 
 
 string op = "0";
@@ -24,7 +59,7 @@ while (op != "3")
     int numI, numF;
     Console.Write("Numero inicial: ");
     numI = Convert.ToInt32(Console.ReadLine());
-    Console.Write("Numero final");
+    Console.Write("Numero final ");
     numF = Convert.ToInt32(Console.ReadLine());
     Console.WriteLine("Menu Secundário");
     Console.WriteLine("1- Inteiros crescente");
@@ -33,11 +68,25 @@ while (op != "3")
     Console.WriteLine("4- Somatorios");
     Console.WriteLine("5- Voltar");
     Console.Write("Opção desejada ");
-    string op2 = Console.ReadLine();
+    int option2 = Convert.ToInt32(Console.ReadLine());
 
-    if (op2 == "1")
+    if (option2 == 1)
     {
       crescente(numI, numF);
+    }
+
+    if (option2 == 2)
+    {
+      decrescente(numI, numF);
+    }
+
+    if (option2 == 3)
+    {
+      impares(numI, numF);
+    }
+    if (option2 == 4)
+    {
+      somatorio(numI, numF);
     }
   }
 }
